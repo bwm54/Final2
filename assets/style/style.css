@@ -1,0 +1,225 @@
+
+/* Small/ Normal*/
+.container{
+    border: 6px double #DEB887;
+    display:grid;
+    width: 350px;
+    height: 120px;
+    text-align: center;
+    margin: 10px auto;
+    background-color:white;
+
+}
+
+/* w */
+
+    body{
+        background-color: #92E2E5;
+    }
+    #boxCenter{
+       margin: auto;
+    }
+    #boxCenter2{
+       margin: auto;
+       font-size: 20px;
+    }
+    .locations-styling{
+        text-align: center;
+    }
+    #textCenter{
+       margin: auto;
+       width: 50%;
+     
+    }
+
+h1{
+
+    font-family: 'Arizonia', cursive;
+    font-size: 64px;
+    color: black;
+}
+
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+
+}
+
+.img8{
+    padding:40px;
+    border:50px solid #021a40;
+    background-color:#ff0;
+
+}
+
+.list1, .home {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    margin: 3%;
+    text-align: center;
+}
+
+
+#center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+
+.homeGrid{
+    display: grid;
+    grid-template-areas: 
+        '1'
+        '2'
+        '3'
+}
+#img8{
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:2px;
+    border:3px solid #5B2E10;
+    background-color:#8B4513;
+    }
+
+.gridnav{
+    text-align: center;
+    display: grid;
+    grid-template-areas: 
+        'home aboutus gallery';
+}
+#aboutus {
+    grid-area: aboutus;
+    font-size: 18px;
+
+}
+
+a:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color:purple;
+}
+
+#gallery {
+    grid-area: gallery;
+    font-size: 18px;
+}
+
+#home{
+    grid-area:home;
+    font-size: 18px;
+}
+
+.home3{
+    margin: 3%;
+    font-size: 22px;
+    font-family: 'Josefin Slab', serif;
+}
+
+
+li{
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.images{
+    font-size: 30px;
+    text-align: center;
+    color:black;
+}
+
+#outline {
+outline: 3px solid rgba(222,184,135,0.34);
+outline-offset: 0px;
+width: 150px;
+height:40px;
+margin: auto;
+
+}
+
+.footerbox{
+    display:grid;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    background-color: #F5DEB3;
+    outline: 8px outset rgba(180,145,103,0.34);
+    outline-offset: 0px;
+    margin: 1%;
+    }
+
+footer{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 24px;
+    color:black;
+}
+
+.homepage{
+    background-color: #D9FBFE;
+    }
+.aboutuspage{
+    background-color:#CBFEF9;
+    } 
+.gallerypage{
+    background-color: #87CEFA;
+
+}
+.booking{
+    background-color: green;
+
+}
+/* Medium */
+    @media only screen and (min-width: 750px) {
+        .homepage{
+            background-color:#99EAFE;
+        }
+
+        .aboutuspage{
+            background-color:#92E2E5;
+        }
+
+        .gallerypage{
+    background-color: #6495ED;
+
+}
+.booking{
+    background-color: yellow;
+
+}
+        }
+
+/* Large */
+    @media only screen and (min-width: 1200px) {
+.homepage{
+    background-color: #58CBE8;
+
+    }
+
+.aboutuspage{
+    background-color:#20B2AA;
+
+    }
+.gallerypage{
+    background-color: #4169E1;
+
+}
+.booking{
+    background-color: red;
+
+}
+}
+
